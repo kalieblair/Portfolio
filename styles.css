@@ -4,3 +4,30 @@
     --primary-font-color: #ffffff;
     --secondary-font-color: #636c73;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    padding: 10px;
+}
+
+.list-trap {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+
+.list-trap li {
+    display: block;
+    position: relative;
+    float: left;
+    text-align: center;
+    margin: 20px;
+}
