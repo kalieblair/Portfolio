@@ -1,13 +1,15 @@
 :root {
-    --primary-color: #d4ae2a;
+    --primary-color: #e2bc30;
+    --secondary-color: #636c73;
     --background-color: #26272b;
     --primary-font-color: #ffffff;
-    --secondary-font-color: #636c73;
 }
 
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Dancing Script', cursive;
+    background-color: green;
 }
 
 .container {
@@ -30,4 +32,23 @@
     float: left;
     text-align: center;
     margin: 20px;
+}
+
+.nav-links {
+    font-size: 1.75em;
+    background-color: var(--background-color);
+}
+
+.nav-links a {
+    color: inherit;
+    text-decoration: inherit;
+    background-color: var(--background-color);
+}
+
+.nav-links a:visited {
+    text-decoration: none;
+}
+
+.nav-links a:active {
+    color: #a38414;
 }
